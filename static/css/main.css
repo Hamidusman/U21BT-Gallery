@@ -1266,3 +1266,22 @@ h6 {
 
 
 
+/* my line of code */
+
+.profiles {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.student-card{
+  width: 260px;
+  height: 470px;
+  background-color: var(--color-primary);
+  margin: 20px
+}
+
+.profile-img{
+  width: 100%;
+  height: 50%;
+}

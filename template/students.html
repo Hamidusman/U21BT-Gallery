@@ -1,5 +1,5 @@
 {% extends 'base.html' %}
-
+{% load static %}
 {% block content %}
   <!-- ======= Hero Section ======= -->
   <section id="hero" class="hero d-flex flex-column justify-content-center align-items-center" data-aos="fade" data-aos-delay="1500">
@@ -13,7 +13,12 @@
     </div>
   </section><!-- End Hero Section -->
 
-  <article>
-    
-  </article>
+  <section class="profiles container-fluid w-100 d-flex justify-content-center align-items-center">
+    <article class="student-card">
+        <img class='profile-img ' src="{% static 'img/gallery/IMG-20231206-WA0018.jpg' %}" alt="">
+
+    </article>
+
+
+  </section>
 {% endblock %}
